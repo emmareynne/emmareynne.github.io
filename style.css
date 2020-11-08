@@ -1,0 +1,146 @@
+.social-btn {
+  height: 29px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+section {
+  position: relative;
+}
+section img {
+  position: absolute;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nameplate {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+html, body, {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+#name {
+  font-size: 50px;
+}
+
+#bio {
+  font-size: 20px;
+}
+
+#pfp {
+  height:400px;
+  padding: 0px;
+  border: 5px #EDE0D3;
+  border-radius: 15px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px #797179;
+}
+
+
+
+img:hover {
+  background-color: #EDE1ED;
+  transition-duration: 1s;
+  box-shadow: 1px 2px #6c919e;
+  transform: translate(1px, 1px);
+}
+
+img:active {
+  background-color: #6c919e;
+  transition-duration: 1s;
+  color: #6c919e;
+  transform: translate(-1px, -1px);
+}
+
+body {
+  background-color:#D7EDC7 ;
+}
+
+#social-links {
+  box-shadow: 1px 2px #795579;
+  background-color: #A3DBEE;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+#title {
+  box-shadow: 1px 2px #797179;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+  flex-direction: row;
+  background-color: #dfede6;
+  color: #797179;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 20px;
+  justify-content: space-around;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+ /* Style the navbar */
+ #navbar {
+   margin-top: 40px;
+  overflow: hidden;
+  background-color: #A3DBEE;
+  border-radius: 15px;
+  box-shadow: 2px 5px #797179;
+}
+
+/* Navbar links */
+#navbar a {
+  margin: 2px;
+  border-radius: 15px;
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  padding: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  /* text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; */
+}
+
+#navbar a:hover {
+  background-color: #EDE1ED;
+  transition-duration: 1s;
+  box-shadow: 1px 2px #6c919e;
+  transform: translate(1px, 1px);
+}
+
+#navbar a:active {
+  background-color: #6c919e;
+  transition-duration: 1s;
+  color: #EDE1ED;
+  transform: translate(-1px, -1px);
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
