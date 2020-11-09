@@ -1,0 +1,66 @@
+#pfp {
+  border-radius:50%; 
+  border: 5px solid white;
+  width: 20%
+}
+
+.top {
+  margin-top: -125px;
+  margin-left: 25px;
+  /* position: relative; top: -125px; left: 50px */
+}
+
+.section {
+  border: 2px solid darkgray;
+  margin: 20px;
+  padding: 20px;
+}
+
+.message {
+  display: inline-block;
+}
+
+footer {
+  background-color: lightgray;
+}
+
+body {
+  background-color: lightgray;
+}
+
+div {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.bio {
+  border: 1px solid black;
+}
+
+.name {
+  text-align: left;
+  width: 50%;
+}
+
+h1, h2 {
+  font-size: 14pt;
+}
+
+#security {
+  flex-grow: 1;
+  text-align: center;
+}
+#right_side {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#message {
+  flex-direction: row-reverse;
+}
+
+div.parentElement{text-align: center;}
+.btn-work{ display: inline-block; }

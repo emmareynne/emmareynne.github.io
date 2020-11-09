@@ -1,0 +1,27 @@
+div {
+
+}
+
+#add-btn {
+  width: 50px;
+}
+
+body {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+#list {
+  flex-direction: column;
+}
+
+#add {
+  margin-left: 100px;
+}
+
+footer {
+  margin-top: 20px;
+}

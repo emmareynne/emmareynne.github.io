@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+  font-family: 'Fredoka One', cursive;
+  font-weight: 300;
+  text-align: center;
+  background-color: rgb(21, 22, 22);
+}
+
+h1 {
+  font-weight: 400;
+  background-color: aqua;
+}
+
+div {
+  background-color:pink;
+}
+
+#middle {
+  background-color: white;
+}
+
+#results {
+  background-color: aqua;
+  font-size: small;
+  font-weight: 100;
+  line-height: 50%;
+}
+
+.bar {
+  height: 100px;
+  margin: 100px 0px 100px 0px;
+}

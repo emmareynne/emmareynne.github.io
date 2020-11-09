@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Emma's Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
+    <script src="app.js" async defer></script>
+  </head>
+  <body>
+    <div>
+    <!-- your HTML should go here -->
+    <nav>
+      <h1 class="bar">Let's Play The Number Guessing Game!</h1>
+    </nav>
+    <div class="bar" id="middle">
+      <label for="guessField">Enter a guess between 1 and 100: </label><br><input type="text" class="guessField" id="guessField"><br>
+      <input type="submit" value="Guess!" class="guessSubmit">
+    </div>
+
+    <div class="bar" id="results">
+        <p class="guesses"></p>
+        <p class="lastGuess"></p>
+        <p class="lowOrHigh"></p>
+    </div>
+
+    </div>
+  </body>
+</html>
