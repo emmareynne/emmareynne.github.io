@@ -149,3 +149,30 @@ body {
 #worker {
   width: 200px;
 }
+
+/* PROJECT CSS */
+.proj-thumb {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+.projects {
+  flex-direction: column;
+  padding: 50px 0px 50px 0px;
+}
+
+.projects-row {
+  justify-content: space-evenly;
+  margin: 50px 0px 50px 0px;
+}
+
+.project-box {
+  flex-direction: column;
+  width: 400px;
+  text-align: center;
+}
+
+.proj-desc {
+  font-size: 12px;
+}
