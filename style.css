@@ -15,21 +15,15 @@ h1 {
   text-align: center;
 }
 
-.nameplate {
+.content {
+  background-color: #dfede6;
   margin-top: 100px;
   margin-left: 30px;
 }
 
-html, body, {
-  position:fixed;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
-
 #name {
   font-size: 50px;
+  margin-top: 150px;
 }
 
 #bio {
@@ -76,7 +70,7 @@ body {
   border-radius: 15px;
 }
 
-#title {
+.content {
   box-shadow: 1px 2px #797179;
   margin: 20px 0px 20px 0px;
   padding: 20px;
@@ -144,3 +138,14 @@ body {
 .sticky + .content {
   padding-top: 60px;
 } 
+
+
+
+.construction {
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#worker {
+  width: 200px;
+}
